@@ -112,7 +112,7 @@ export default function Home() {
             <p className="text-gray-600 text-sm sm:text-base">面倒な作業は「まるなげ！」がすべて代行します。</p>
           </div>
           <div className="flex flex-col lg:flex-row gap-6 sm:gap-8 items-stretch max-w-6xl mx-auto">
-            <div className="lg:w-1/3 bg-white p-6 sm:p-8 pt-16 rounded-3xl shadow-lg border-t-8 border-brand-orange relative transform hover:-translate-y-2 transition-transform">
+            <div className="lg:w-1/3 bg-white p-6 sm:p-8 pt-16 rounded-3xl shadow-lg border-t-8 border-brand-orange relative transform hover:-translate-y-2 transition-transform overflow-visible">
               <div className="absolute -top-5 sm:-top-6 left-1/2 -translate-x-1/2 bg-brand-orange text-white px-4 sm:px-6 py-2 rounded-full font-bold shadow-md text-sm sm:text-base whitespace-nowrap">あなたにお願いすること</div>
               <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
                 <div className="flex items-start gap-3 sm:gap-4">
@@ -127,7 +127,7 @@ export default function Home() {
               <div className="mt-6 sm:mt-8 text-center bg-orange-50 py-3 sm:py-4 rounded-xl"><p className="font-bold text-brand-orange text-sm sm:text-base">これだけでOK！</p></div>
             </div>
             <div className="flex items-center justify-center text-brand-light-orange lg:w-16"><ArrowRight className="w-10 h-10 sm:w-12 sm:h-12 rotate-90 lg:rotate-0" /></div>
-            <div className="lg:w-3/5 bg-gray-900 text-white p-6 sm:p-8 pt-16 rounded-3xl shadow-xl relative overflow-hidden group min-h-[400px] sm:min-h-0">
+            <div className="lg:w-3/5 bg-gray-900 text-white p-6 sm:p-8 pt-16 rounded-3xl shadow-xl relative overflow-visible group min-h-[400px] sm:min-h-0">
               <div className="absolute top-0 right-0 w-48 sm:w-64 h-48 sm:h-64 bg-brand-orange/20 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
               <div className="absolute -top-5 sm:-top-6 left-1/2 -translate-x-1/2 bg-gray-800 text-white border border-gray-600 px-4 sm:px-6 py-2 rounded-full font-bold shadow-md whitespace-nowrap text-sm sm:text-base">まるなげ！ にお任せ</div>
               <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-6 relative z-10">
