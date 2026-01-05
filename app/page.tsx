@@ -51,7 +51,7 @@ export default function Home() {
           <div className="lg:w-1/2 relative w-full flex justify-center">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-white/60 blur-3xl rounded-full -z-10" />
             <div className="relative w-full max-w-[280px] sm:max-w-md lg:max-w-lg aspect-square mx-auto">
-              <Image src="/images/user-relaxing.png" alt="スマホでくつろぐ様子" fill className="object-contain drop-shadow-xl hover:scale-105 transition-transform duration-700 ease-in-out" priority />
+              <Image src="/marunage-ec/images/user-relaxing.png" alt="スマホでくつろぐ様子" fill className="object-contain drop-shadow-xl hover:scale-105 transition-transform duration-700 ease-in-out" priority />
               <div className="absolute top-4 sm:top-10 right-2 sm:-right-4 bg-white p-2 sm:p-3 rounded-xl shadow-lg flex items-center gap-2 animate-[bounce_3s_infinite] text-xs sm:text-sm">
                 <div className="bg-brand-light-orange p-2 rounded-full"><Star className="w-4 h-4 sm:w-5 sm:h-5 text-brand-orange" /></div>
                 <div><p className="text-xs text-gray-500">利益率</p><p className="font-bold text-brand-orange">15%</p></div>
@@ -143,7 +143,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="mt-4 sm:mt-8 relative h-32 sm:h-48 w-full rounded-xl overflow-hidden bg-gray-800 border border-gray-700">
-                <Image src="/images/logistics-hub.png" alt="物流倉庫の様子" fill className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+                <Image src="/marunage-ec/images/logistics-hub.png" alt="物流倉庫の様子" fill className="object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 font-bold text-base sm:text-lg text-brand-orange">物流・管理はすべて丸投げ！</div>
               </div>
